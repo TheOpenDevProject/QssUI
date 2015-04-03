@@ -4,13 +4,27 @@ background-color:#1d1d1d;
 
 QMenuBar{
 background-color:#1d1d1d;
+padding:5px;
+	font: 12pt "MS Shell Dlg 2";
 }
 
 QMenuBar::item{
 background-color:#1d1d1d;
 color:#fff;
 padding:5px;
+
 }
+
+QMenu{
+color:#fff;
+padding:0;
+}
+
+QMenu::item:selected{
+color:#fff;
+background-color:#00aba9;
+}
+
 QTableWidget{
 background-color:#3d3d3d;
 color:#fff;
@@ -73,4 +87,29 @@ border-width:2px;
 
 QPushButton:pressed{
 background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.517, y2:1, stop:0 rgba(29, 29, 29, 255), stop:0.505682 rgba(45, 45, 45, 255), stop:1 rgba(29, 29, 29, 255));
+}
+
+
+QTabWidget::tab{
+background-color:#3d3d3d;
+}
+
+QLineEdit{
+border-radius:0;
+}
+
+QProgressBar{
+border-radius:0;
+text-align:center;
+color:#fff;
+background-color:transparent;
+border: 2px solid #e3a21a;
+border-radius:7px;
+	font: 75 12pt "Open Sans";
+
+}
+
+QProgressBar::chunk{
+background-color:#2d89ef;
+width:20px;
 }
