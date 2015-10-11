@@ -28,4 +28,4 @@ UI design
 ##########################
 
 Credits: TheOpenDevProject (MetroUI)
-http://i.imgur.com/lADxXGa.png
+![alt tag](http://i.imgur.com/lADxXGa.png)
